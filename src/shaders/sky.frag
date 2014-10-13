@@ -23,5 +23,6 @@ void main() {
         uv.y = 1.0 - uv.y;
     }
     float palette_index = texture(u_texture, uv).r;
+    palette_index = floor(palette_index * 256.0) / 256.0 + 0.5 / 256.0;
     color = texture(u_palette, vec2(palette_index, 0.0)).rgb;
 }
