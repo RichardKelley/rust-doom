@@ -55,3 +55,4 @@ _(subject to change)_
 * [ ] Camera-world collisions.
 * [ ] Correct player movement (falling etc.)
 * [ ] Sprite-player and sprite-sprite collisions.
+* 
